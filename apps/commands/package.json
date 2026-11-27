@@ -1,0 +1,13 @@
+{
+  "name": "postpilot-command",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 dotenv -e ../../.env -- nest start --watch --entryFile=apps/commands/src/main",
+    "build": "cross-env NODE_ENV=production NODE_OPTIONS=--max-old-space-size=4096 nest build",
+    "start": "node ./dist/commands/apps/commands/src/main.js"
+  },
+  "keywords": [],
+  "author": "Pelle Nyberg (Corax CoLAB)",
+  "license": "AGPL-3.0"
+}

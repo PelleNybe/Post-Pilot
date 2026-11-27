@@ -1,0 +1,12 @@
+# Disable the default option to open a blank issue
+blank_issues_enabled: true 
+
+# Define your custom links
+contact_links:
+  - name: 🌐 Corax CoLAB
+    url: https://coraxcolab.com
+    about: Learn more about Corax CoLAB and PostPilot.
+
+  - name: Security Issue
+    url: https://github.com/PelleNybe/Post-Pilot/security/advisories/new
+    about: Please submit security issues via our GitHub Security Advisories.

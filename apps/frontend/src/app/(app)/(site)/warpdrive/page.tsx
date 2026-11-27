@@ -1,0 +1,2 @@
+import { WarpDriveDashboard } from '../../../../components/warpdrive/warpdrive.dashboard';
+export default function WarpDrivePage() { return <div className="w-full h-full min-h-screen bg-[#0A0A0A] text-white"><WarpDriveDashboard /></div>; }

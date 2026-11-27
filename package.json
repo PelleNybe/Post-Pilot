@@ -93,7 +93,7 @@
     "@nestjs/throttler": "^6.7.1",
     "@neynar/nodejs-sdk": "^3.112.0",
     "@neynar/react": "^0.9.7",
-    "@pigment-css/react": "^0.0.30",
+    "@pigment-css/react": "^0.0.31",
     "@prisma/client": "6.5.0",
     "@sentry/nestjs": "^10.78.0",
     "@sentry/nextjs": "^10.78.0",

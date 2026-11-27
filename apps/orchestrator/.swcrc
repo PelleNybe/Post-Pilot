@@ -1,0 +1,39 @@
+{
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": false,
+      "decorators": true,
+      "dynamicImport": true
+    },
+    "target": "es2020",
+    "baseUrl": "../..",
+    "paths": {
+      "@postpilot/backend/*": ["apps/backend/src/*"],
+      "@postpilot/cron/*": ["apps/cron/src/*"],
+      "@postpilot/frontend/*": ["apps/frontend/src/*"],
+      "@postpilot/helpers/*": ["libraries/helpers/src/*"],
+      "@postpilot/nestjs-libraries/*": ["libraries/nestjs-libraries/src/*"],
+      "@postpilot/orchestrator/*": ["apps/orchestrator/src/*"],
+      "@postpilot/react/*": ["libraries/react-shared-libraries/src/*"],
+      "@postpilot/plugins/*": ["libraries/plugins/src/*"],
+      "@postpilot/workers/*": ["apps/workers/src/*"],
+      "@postpilot/extension/*": ["apps/extension/src/*"]
+    },
+    "keepClassNames": true,
+    "transform": {
+      "legacyDecorator": true,
+      "decoratorMetadata": true
+    },
+    "loose": true
+  },
+  "module": {
+    "type": "commonjs",
+    "strict": false,
+    "strictMode": true,
+    "lazy": false,
+    "noInterop": false
+  },
+  "sourceMaps": true,
+  "minify": false
+} 

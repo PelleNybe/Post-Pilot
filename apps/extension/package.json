@@ -1,0 +1,19 @@
+{
+  "name": "postpilot-extension",
+  "version": "2.0.0",
+  "description": "PostPilot browser extension for cookie-based platform authentication",
+  "scripts": {
+    "build": "rm -rf dist && vite build --config vite.config.chrome.ts && cd dist && zip -r ../extension.zip .",
+    "dev": "rm -rf dist && HOT_RELOAD_EXTENSION_VITE_PORT=8089 NODE_ENV=development dotenv -e ../../.env -- vite build --config vite.config.chrome.ts --mode development --watch"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.32",
+    "@vitejs/plugin-react": "^4.2.0",
+    "hot-reload-extension-vite": "^1.0.13",
+    "vite": "^6.3.5",
+    "vite-tsconfig-paths": "^5.1.4"
+  },
+  "type": "module",
+  "author": "Pelle Nyberg (Corax CoLAB)",
+  "license": "AGPL-3.0"
+}

@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "strictPropertyInitialization": false,
+    "experimentalDecorators": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "incremental": true,
+    "strictNullChecks": false,
+    "noImplicitAny": true,
+    "strictBindCallApply": false,
+    "noFallthroughCasesInSwitch": true,
+    "strict": true,
+    "paths": {
+      "@postpilot/backend/*": ["apps/backend/src/*"],
+      "@postpilot/frontend/*": ["apps/frontend/src/*"],
+      "@postpilot/helpers/*": ["libraries/helpers/src/*"],
+      "@postpilot/nestjs-libraries/*": ["libraries/nestjs-libraries/src/*"],
+      "@postpilot/react/*": ["libraries/react-shared-libraries/src/*"],
+      "@postpilot/plugins/*": ["libraries/plugins/src/*"],
+      "@postpilot/orchestrator/*": ["apps/orchestrator/src/*"],
+      "@postpilot/extension/*": ["apps/extension/src/*"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
